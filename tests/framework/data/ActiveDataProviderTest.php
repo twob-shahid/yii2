@@ -121,6 +121,9 @@ class ActiveDataProviderTest extends DatabaseTestCase
         $this->assertEquals(1, count($items));
     }
 
+    /**
+    Test a Query
+    **/
     public function testQuery()
     {
         $query = new Query;
